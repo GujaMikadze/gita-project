@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wine In Georgia</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav flex flex-center flex-middle">
+        <div class="center-left">
+          <ul class="flex">
+            <li class="mr-20">
+              <a href="#"> Travel </a>
+            </li>
+            <li class="mr-20">
+              <a href="#"> Tradition </a>
+            </li>
+          </ul>
+        </div>
+        <div class="center-center">
+          <a href="/index.html">
+            <img src="images/logo.png" class="header-logo" alt="Logo" />
+          </a>
+        </div>
+        <div class="center-right">
+          <ul class="flex">
+            <li class="ml-20 nav-dropdown">
+              <a href="#" class="nav-parent"> wine </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#"> Tsolikouri </a>
+                </li>
+                <li>
+                  <a href="#"> Khvanchkara </a>
+                </li>
+                <li>
+                  <a href="#"> Rkatsiteli </a>
+                </li>
+              </ul>
+            </li>
+            <li class="ml-20">
+              <a href="#"> about georgia </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="responsive-nav pos-relative">
+        <div class="flex flex-between flex-middle">
+          <div class="responsive-logo">
+            <a href="/index.html">
+              <img src="images/logo.png" class="header-logo" alt="Logo" />
+            </a>
+          </div>
+          <div class="responsive-menu-icon" id="responsiveMenu">
+            <i class="bi bi-list"></i>
+          </div>
+        </div>
+      </div>
+      <div id="offcanvas" class="nav-offcanvas">
+        <div class="offcanvas-close">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <div class="flex flex-center">
+          <ul class="flex flex-column">
+            <li>
+              <a href="#"> Travel </a>
+            </li>
+            <li>
+              <a href="#"> Tradition </a>
+            </li>
+            <li class="nav-accordion">
+              <a href="#" class="nav-accordion-parent flex flex-between">
+                wine
+                <i class="bi bi-arrow-left-short"></i>
+              </a>
+              <ul class="sub-accordion-menu">
+                <li>
+                  <a href="#"> Tsolikouri </a>
+                </li>
+                <li>
+                  <a href="#"> Khvanchkara </a>
+                </li>
+                <li>
+                  <a href="#"> Rkatsiteli </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"> about georgia </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="slideshow-container">
+        <div class="slide slide1">
+          <img
+            src="images/thumb2-white-wine-grapes-glasses-of-wine-summer-village-wine-barrel.jpg"
+          />
+          <a href="#" class="slider-link">
+            <div class="slide-description-box slide1">
+              <h3 class="slide-description-heading slide1">Tsolikouri</h3>
+              <p class="slide-description-text slide1">
+                Tsolikouri (Georgian: ცოლიკოური) is a light yellow-skinned white
+                grape variety grown mainly in western Imereti district of
+                Georgia. It cultivated in Kolkhida Lowland at an altitude of 160
+                m (520 ft) above sea level.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide slide2">
+          <img src="images/7vVnNwYuH.jpg" />
+          <a href="#" class="slider-link">
+            <div class="slide-description-box slide2">
+              <h3 class="slide-description-heading slide2">Khvanchkara</h3>
+              <p class="slide-description-text slide2">
+                Khvanchkara (ხვანჭკარა) is a high-end, naturally semi-sweet red
+                wine made from the Alexandrouli & Mudzhuretuli grape varieties
+                cultivated in the Khvanchkara vineyards in Racha, Western
+                Georgia. The wine has a strong, distinctive bouquet and a
+                well-balanced tannin profile with flavors of raspberry.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide">
+          <img src="images/Rkatsiteli.jpg" />
+          <a href="#" class="slider-link">
+            <div class="slide-description-box slide3">
+              <h3 class="slide-description-heading slide3">Rkatsiteli</h3>
+              <p class="slide-description-text slide3">
+                Rkatsiteli (რქაწითელი) is a kind of grape used to produce white
+                wine. This ancient vinifera originates in Georgia and is one of
+                the oldest grape varieties. In Georgia, clay vessels were found
+                with seeds of Rkatsiteli grapes which date back to 3000 BC
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <a class="arrow-left">
+          <i class="bi bi-arrow-left-circle-fill"></i>
+        </a>
+        <a class="arrow-right">
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
