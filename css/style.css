@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Halvetica Regular";
+  src: url(../fonts/Helvetica-Neue-LT-GEO-55-Roman.ttf);
+}
+@font-face {
+  font-family: "Halvetica Bold";
+  src: url(../fonts/Helvetica-Neue-LT-GEO-75-Bold.ttf);
+}
 html,
 body {
   min-height: 100%;
@@ -14,11 +22,23 @@ body {
   padding: 0;
   color: #000;
   font-size: 16px;
+  font-family: "Halvetica Regular";
+}
+
+h1, h2, h3, h4 {
+  font-family: "Halvetica Bold";
 }
 
 .container {
   max-width: 1120px;
   margin: 0 auto;
+  padding: 10px;
+}
+
+.container-small {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 a {
@@ -225,4 +245,46 @@ ul {
 }
 .slideshow-container .arrow-right {
   right: 20px;
+}
+
+.travel-page {
+  margin-top: 50px;
+}
+.travel-page h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.travel-page h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.travel-page p {
+  margin: 16px;
+}
+.travel-page img {
+  width: 100%;
+}
+.travel-page button {
+  border: none;
+  background: none;
+  font-size: 26px;
+  cursor: pointer;
+  margin: 20px;
+}
+.travel-page .travel-card {
+  display: none;
+}
+
+.tradition-page {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tradition-page h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tradition-page h3 {
+  font-size: 20px;
+  margin: 16px 0;
 }/*# sourceMappingURL=style.css.map */

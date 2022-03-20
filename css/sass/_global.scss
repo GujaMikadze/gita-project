@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: "Halvetica Regular";
+    src: url(../fonts/Helvetica-Neue-LT-GEO-55-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Halvetica Bold";
+    src: url(../fonts/Helvetica-Neue-LT-GEO-75-Bold.ttf);
+}
 html,
 body {
   min-height: 100%;
@@ -17,11 +27,23 @@ body {
   padding: 0;
   color: #000;
   font-size: 16px;
+  font-family: "Halvetica Regular";
+}
+
+h1,h2,h3,h4 {
+    font-family: "Halvetica Bold";
 }
 
 .container {
     max-width: 1120px;
     margin: 0 auto;
+    padding: 10px;
+}
+
+.container-small {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 a {
@@ -71,7 +93,6 @@ ul {
 .ml-20 {
     margin-left: 20px;
 }
-
 
 @mixin tablet {
     @media (max-width: 960px) {

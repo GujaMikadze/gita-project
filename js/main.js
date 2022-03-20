@@ -27,7 +27,6 @@ $(function() {
         slideIndex = slides.length
     }
     for (i = 0; i < slides.length; i++) {
-        console.log(slides[i]);
         slides[i].style.display = "none";
     }
 
@@ -51,4 +50,17 @@ $(function() {
         }
         
     });
+
+
+    $("#travel").click(function(){
+        $.ajax({url: "pages/travel.html", success: function(result){
+          $("section").html(result);
+        }});
+      });
+
+      $("#tradition").click(function(){
+        $.ajax({url: "pages/tradition.html", success: function(result){
+          $("section").html(result);
+        }});
+      });
 });
